@@ -1,0 +1,87 @@
+body{
+    font-family: "Happy Monkey", system-ui;
+    
+    color: #2c0707;
+    background: linear-gradient(rgb(136, 58, 71) , rgb(226, 226, 48));
+    text-shadow: 0px 0px 5px rgb(132, 132, 77);
+    text-align: center;
+}
+
+#photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50% ;
+    border: 3px solid black;
+    
+
+}
+
+.gift-img{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid black;
+    border-radius: 10px;
+    background-image: url(images/gift-box.jpeg);
+    background-size: cover;
+}
+
+#bday-age{
+    background:linear-gradient(pink, whitesmoke);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 40px;
+    
+}
+
+#bday-date{
+    background:radial-gradient(whitesmoke,pink) ;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin-top: 1px;
+    font-size: 30px;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-section{
+    margin-top: 50px;
+    font-size: 25px;
+
+}
+.gift-hint{
+    margin-top: 10px;
+}
+
+.gift-img:hover{
+ 
+    background-image: url(images/giphy.webp);
+}
+
+h1{
+    text-shadow: 2px 2px 2px rgb(190, 35, 43);
+    font-size:60px;
+}
+#gift2:hover{
+    background-image: url("images/giphy2.webp")
+}
+
+#gift3:hover{
+    background-image: url("images/giphy3.webp")}
+
+h1{
+    background:linear-gradient(whitesmoke,pink);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+#gift4:hover{
+    background-image: url("images/giphy4.webp")}
+    
+#photo{
+    width:400px;
+    height: 400px;
+}
